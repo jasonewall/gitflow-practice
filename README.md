@@ -12,4 +12,3 @@ This is me trying to figure out how to use git-flow with github protected branch
 1. `git flow bugfix start fix-bug-in-release release/version-number`
 1. Make changes
 1. `git flow bugfix publish`
-
