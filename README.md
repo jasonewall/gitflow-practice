@@ -20,3 +20,4 @@ This is me trying to figure out how to use git-flow with github protected branch
 ## CI
 
 1. Still trying to fake CI
+1. When will this work!?
