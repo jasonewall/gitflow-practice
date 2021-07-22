@@ -16,3 +16,7 @@ This is me trying to figure out how to use git-flow with github protected branch
 ## Migrations
 
 1. Can we auto merge things from master into a protected branch via githooks?
+
+## CI
+
+1. Still trying to fake CI
