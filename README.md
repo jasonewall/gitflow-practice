@@ -13,3 +13,7 @@ This is me trying to figure out how to use git-flow with github protected branch
 1. Make changes
 1. `git flow bugfix publish`
 
+## Migrations
+
+1. Can we auto merge things from master into a protected branch via githooks?
+
