@@ -1,3 +1,4 @@
 task :default do
-  # succeed
+  sleep 15
+  puts 'Finally!'
 end
