@@ -1,13 +1,23 @@
 version: v1.0
-name: Initial Pipeline
+name: Fake CI Pipeline
 agent:
   machine:
     type: e1-standard-2
     os_image: ubuntu1804
+global_job_config:
+  prologue:
+    commands:
+      - checkout
+      - cache restore
+      - sem-version ruby 2.7.0
+      - bundle install
+  epilogue:
+    commands:
+      - cache store
 blocks:
   - name: 'Block #1'
     task:
       jobs:
         - name: 'Job #1'
           commands:
-            - checkout
+            - rake
