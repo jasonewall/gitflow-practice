@@ -16,4 +16,7 @@ This is me trying to figure out how to use git-flow with github protected branch
 ## Migrations
 
 1. Can we auto merge things from master into a protected branch via githooks?
+    - No
 1. If CI passing is the only check can we still use merge commits from PRs to push to this branch?
+    - Yes
+1. Can we push to multiple protected branches in the same command if checks are passing for both?
