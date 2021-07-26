@@ -20,3 +20,5 @@ This is me trying to figure out how to use git-flow with github protected branch
 1. If CI passing is the only check can we still use merge commits from PRs to push to this branch?
     - Yes
 1. Can we push to multiple protected branches in the same command if checks are passing for both?
+    - Yes
+1. What about a PR destined for a different branch?
