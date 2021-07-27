@@ -20,6 +20,13 @@ This is me trying to figure out how to use git-flow with github protected branch
 
 1. ys flow build release
 
+## Creating a hotfix
+
+1. ys flow build hotfix
+1. Make & commit changes
+1. `git flow hotfix publish`
+1. Make PR
+
 ## Migrations
 
 1. Can we auto merge things from master into a protected branch via githooks?
