@@ -37,3 +37,4 @@ This is me trying to figure out how to use git-flow with github protected branch
     - Yes
 1. What about a PR destined for a different branch?
     - No
+1. Can we have migrations in progress and safely ff in a hotfix?
